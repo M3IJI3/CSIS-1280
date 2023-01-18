@@ -1,0 +1,117 @@
+@charset "utf-8";
+/*
+   Resume
+
+   Filename: A1_Jie_Mei.css
+   This file contains the layout styles used in the A1_Jie_Mei.html page.
+
+*/
+
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: url(Quicksand-Light.ttf) format('truetype');
+}
+
+body
+{
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 30px;
+    width: 700px;
+    height: 860px;
+    font-family: 'Quicksand-Light';
+}
+
+.left-panel
+{
+    float: left;
+    display: inline;
+    width: 200px;
+    height: 800px;
+
+    background-color: rgb(230, 125, 48);
+    margin: 30px;
+}
+
+.left-panel #info
+{
+    width: 150px;
+    height: 100px;
+
+    
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#info div
+{
+    font-size: 35px;
+}
+
+.logos
+{
+    width: 12px;
+    height: 12px;
+}
+
+
+
+#contact-info
+{
+    width: auto;
+    height: auto;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.right-panel
+{
+    float: left;
+    display: inline;
+    width: 350px;
+    height: auto;
+
+    margin-top: 30px;
+   
+}
+
+.right-panel p
+{
+    font-size: 13px;
+}
+
+.timeline
+{
+    color: gray;
+    font-size: 14px;
+}
+
+.degree
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.school
+{
+    font-size: 13px;
+}
+
+.occupation 
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.company 
+{
+    font-size: 13px;
+}
+
+
+
+
+
+
