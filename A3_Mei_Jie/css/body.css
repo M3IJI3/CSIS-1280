@@ -18,20 +18,20 @@
 
 .body
 {
-    position: relative;
+    position: fixed;
     width: 200%;
     height: 100%;
-    margin-left: 25%;
+    margin-left: 20%;
     white-space: nowrap;
     overflow-y: scroll;
-    /* border: 3px solid #36454f; */
+    /* border: 1px solid #36454f; */
 }
 
 .content
 {
-    margin-top: 3%;
-    margin-left: 5%;
-    height: 110%;
+    margin-top: 1%;
+    margin-left: 3%;
+    height: calc(100% + 50%);
     text-align: left;
 }
 

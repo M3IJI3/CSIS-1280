@@ -24,4 +24,16 @@
     --textcolor: #ff6600;
 }
 
+code
+{
+    color: var(--textcolor);
+}
+
+hr
+{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
 
