@@ -5,23 +5,38 @@
     height: 100vh;
     display: flex;
     text-align: center;
+    z-index: 1;
 }
 
 .menu
 {
     position: fixed;
     width: 20%;
-    
+    height: 100%;
+    border-right: 1px solid #36454f;
 }
 
 .body
 {
-    position: fixed;
-    width: 100%;
+    position: relative;
+    width: 200%;
     height: 100%;
-    margin-left: 13%;
+    margin-left: 25%;
     white-space: nowrap;
     overflow-y: scroll;
+    /* border: 3px solid #36454f; */
+}
+
+.content
+{
+    margin-top: 3%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.title
+{
+    font-size: 50px;
 }
 
 .body::-webkit-scrollbar
@@ -33,7 +48,6 @@
 {
     border: 1px solid red;
 } */
-
 
 .menu a:hover
 {
