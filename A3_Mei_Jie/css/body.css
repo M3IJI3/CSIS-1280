@@ -16,9 +16,17 @@
 
 .body
 {
-    position: relative;
-    margin-left: 23%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-left: 13%;
+    white-space: nowrap;
     overflow-y: scroll;
+}
+
+.body::-webkit-scrollbar
+{
+    width: 0;
 }
 
 /* *
@@ -50,5 +58,10 @@
     letter-spacing: 2px;
     display: list-item;
     list-style: none;
+}
+
+.content
+{
+    display: none;
 }
 
