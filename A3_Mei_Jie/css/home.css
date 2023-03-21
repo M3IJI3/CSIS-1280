@@ -37,21 +37,21 @@ nav
     padding: 5px;
 }
 
-.header
+ul
 {
     display: flex;
     list-style: none;
     flex: 1;
     justify-content: right;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
-.header li
+ul li
 {
     margin: 0 20px;
 }
 
-.header li a
+ul li a
 {
     display: block;
     font-size: 30px;
@@ -62,7 +62,7 @@ nav
     transition: 0.3s ease;
 }
 
-.header li:hover a
+ul li:hover a
 {
     color: var(--textcolor);
     transform: scale(1.2);
