@@ -13,7 +13,7 @@
     position: fixed;
     width: 20%;
     height: 100%;
-    border-right: 1px solid #36454f;
+    box-shadow: 5px 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .body
@@ -31,6 +31,7 @@
 {
     margin-top: 3%;
     margin-left: 5%;
+    height: 110%;
     text-align: left;
 }
 
