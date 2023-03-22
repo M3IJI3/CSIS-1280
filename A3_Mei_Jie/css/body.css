@@ -97,3 +97,22 @@ main
     font-size: 30px;
 }
 
+img
+{
+    border-radius: 15px;
+    
+}
+
+img:hover
+{
+    transition: 0.5s ease;
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+#images_area li
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}

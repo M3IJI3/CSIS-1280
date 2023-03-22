@@ -42,8 +42,6 @@
                 <div class="content" id="box1">
                     <p class="title">HTML <b class="title" style="color: var(--textcolor);">Text Formatting</b> </p>
                     <br>
-                    <hr>
-                    <br>
                     <p>HTML contains several elements for defining text with a special meaning.</p>
                     <br>
                     <ul>
@@ -108,7 +106,65 @@
                     <br><hr><br>
                 </div>
                 
-                <div class="content" id="box2">2</div>
+                <div class="content" id="box2">
+                    <p class="title">HTML <b class="title" style="color: var(--textcolor);">Images</b> </p>
+                    <br>
+                    <ul id="images_area">
+                        <li>
+                            <img src="../image/1.jpeg" alt="3D Model" />
+                        </li>
+                        <li>
+                            <img src="../image/2.gif" alt="3D Model" style="width:500px; height: 306px;" />
+                        </li>
+                    </ul>
+                    <br>
+                    <p>Use <code>&lt;img src="" alt="" /&gt;</code> to add images to your web page.</p>
+                    <br><hr><br>
+                    <p class="title">HTML <b class="title" style="color: var(--textcolor);">Images Syntax</b> </p> <br>
+                    <p>The HTML <code>&lt;img&gt;</code> tag is used to embed an image in a web page. <br>
+
+                        Images are not technically inserted into a web page; images are linked to web pages. The <code>&lt;img&gt;</code> tag creates a holding space for the referenced image. <br>
+                        
+                        The <code>&lt;img&gt;</code> tag is empty, it contains attributes only, and does not have a closing tag. <br>
+                        
+                        The <code>&lt;img&gt;</code> tag has two required attributes: <br><br>
+                        <ul>
+                            <li>src - Specifies the path to the image </li>
+                            <li>alt - Specifies an alternate text for the image</li>
+                        </ul>
+                    </p>
+
+                    <br><hr><br>
+                    <p class="title">The <b class="title" style="color: var(--textcolor);">src</b> Attribute </p> <br>
+                    <p>The required <code>src</code> attribute specifies the path (URL) to the image. <br><br>
+
+                        <b>Note:</b> When a web page loads, it is the browser, at that moment, 
+                        that gets the image from a web server and inserts it into the page. <br>
+                        Therefore, make sure that the image actually stays in the same spot in 
+                        relation to the web page, otherwise your visitors will get a broken link icon. <br> 
+                        The broken link icon and the <code>alt</code> text are shown if the browser cannot find the image.
+                    </p>
+                    <br><hr><br>
+
+                    <p class="title">The <b class="title" style="color: var(--textcolor);">alt</b> Attribute </p> <br>
+                    <p>The required <code>alt</code> attribute provides an alternate text for an image, if the user for some reason cannot view
+                        it (because of slow connection, <br>an error in the <code>src</code> attribute, or if the user uses a screen reader).</p>
+                    <br>
+                    <p>The value of the <code>alt</code> attribute should describe the image.</p><br>
+                    <p>If a browser cannot find an image, it will display the value of the <code>alt</code> attribute:</p>
+                    <br><hr><br>
+                    
+                    <p class="title">Image size - <b class="title" style="color: var(--textcolor);">Width and Height</b></p> <br>
+                    <p>You can use the style attribute to specify the <code>width and height</code> of an image.</p> <br>
+                    <p><b>Example: </b><code>&lt;img </code>src="img_player.jpg" alt="3D model character" style="width=500px;height=600px"<code> /&gt;</code> </p><br>
+                    <p>The <code>width and height</code> attributes always define the width and height of the image in pixels.</p>
+                    <br><hr><br>
+
+                    <p class="title">Images <b class="title" style="color: var(--textcolor);">on Another Server/Website</b> </p> <br>
+                    <p>Some web sites point to an image on another server. To point to an image on another server, you must specify an absolute (full) <code>URL</code> in the src attribute:</p> <br>
+                    <p><b>Example: </b><code>&lt;img </code>src="<code style="text-decoration: underline;">https://www.w3schools.com/images/w3schools_green.jpg</code>" alt="3D model character" style="width=500px;height=600px"<code> /&gt;</code> </p><br>
+                    
+                </div>
                 <div class="content" id="box3">3</div>
                 <div class="content" id="box4">4</div>
                 <div class="content" id="box5">5</div>
