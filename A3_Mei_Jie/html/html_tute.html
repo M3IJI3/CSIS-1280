@@ -34,7 +34,7 @@
                 <a href="#" id="2">HTML Images</a>
                 <a href="#" id="3">HTML Tables</a>
                 <a href="#" id="4">HTML List</a>
-                <a href="#" id="5">HTML Classes</a>
+                <a href="#" id="5">HTML Input Types</a>
                 <a href="#" id="6">QUIZ</a>
             </div>
           
@@ -264,11 +264,159 @@
                     <p class="title">HTML <b class="title" style="color: var(--textcolor);">Description</b> List</p><br>
                     <p>HTML also supports description lists. A description list is a list of terms, with a description of each term. <br><br>
                         The <code>&lt;dl&gt;</code> tag defines the description list, the <code>&lt;dt&gt;</code> tag defines the term (name), and the <code>&lt;dd&gt;</code> tag describes each term:</p><br>
-
-
                 </div>
-                <div class="content" id="box5">5</div>
-                <div class="content" id="box6">6</div>
+
+                <div class="content" id="box5">
+                    <p class="title">HTML<b class="title" style="color: var(--textcolor);"> input </b> Types</p><br>
+                    <p>This chapter describes the different types for the HTML <code>&lt;input&gt;</code> element.</p><br>
+                    <p>Here are the different input types you can use in HTML:</p> <br>
+                    <ul>
+                        <li>
+                            <p>&lt;input type="button"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="checkbox"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="color"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="date"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="datetime-local"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="email"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="file"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="hidden"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="image"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="month"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="number"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="password"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="radio"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="range"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="reset"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="search"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="submit"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="tel"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="text"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="time"&gt;</p>
+                        </li>
+                        <li>
+                            <p>&lt;input type="url"&gt;</p>
+                        </li>
+                    </ul><br>
+                    <p><b>Tip: </b>The default value of the type attribute is "text".</p>
+                    
+                    <br><hr><br>
+
+                    <p class="title">Input Type <b class="title" style="color: var(--textcolor);">Text</b> </p><br>
+                    <p><code>&lt;input type="text"&gt;</code> defines a single-line text input field:</p><br>
+                    <p>This is how the HTML code above will be displayed in a browser:</p><br>
+                    <label>FirstName: </label><input type="text" /><br>
+                    <label>LastName: </label><input type="text" /><p></p>
+                    <br><hr><br>
+
+                    <p class="title">Input Type <b class="title" style="color: var(--textcolor);">Password</b> </p><br>
+                    <p><code>&lt;input type="password"&gt;</code> defines a password field:</p><br>
+                    <p>This is how the HTML code above will be displayed in a browser:</p><br>
+                    <label>Username: </label><input type="text" /><br>
+                    <label>Password: </label><input type="password" /><p></p>
+                    <br><hr><br>
+
+                    <p class="title">Input Type <b class="title" style="color: var(--textcolor);">Submit</b> </p><br>
+                    <p><code>&lt;input type="submit"&gt;</code> defines a button for submitting form data to a form-handler.</p><br>
+                    <p>This is how the HTML code above will be displayed in a browser:</p><br>
+                    <label>FirstName: </label><input type="text" /><br>
+                    <label>LastName: </label><input type="text" /><br><br>
+                    <input type="submit" value="submit"><p></p>
+                    <br><hr><br>
+
+                    <p class="title">Input Type <b class="title" style="color: var(--textcolor);">Reset</b> </p><br>
+                    <p><code>&lt;input type="reset"&gt;</code> defines a reset button that will reset all form values to their default values:</p><br>
+                    <p>This is how the HTML code above will be displayed in a browser:</p><br>
+                    <label>FirstName: </label><input type="text" /><br>
+                    <label>LastName: </label><input type="text" /><br><br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset"> <p></p>
+                    <br><hr><br>
+
+                    <p class="title">Input Type <b class="title" style="color: var(--textcolor);">Radio</b> </p><br>
+                    <p><code>&lt;input type="radio"&gt;</code> defines a radio button:</p><br>
+                    <p>This is how the HTML code above will be displayed in a browser:</p><br>
+                    <p>Choose your favorite Web language:</p>
+                    <form>
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="html">HTML</label><br>
+                        <input type="radio" id="css" name="fav_language" value="CSS">
+                        <label for="css">CSS</label><br>
+                        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                        <label for="javascript">JavaScript</label>
+                    </form>
+                    <br><hr><br>
+
+                    <p class="title">Input Type <b class="title" style="color: var(--textcolor);">Checkbox</b> </p><br>
+                    <p><code>&lt;input type="checkbox"&gt;</code> defines a checkbox:</p><br>
+                    <p>This is how the HTML code above will be displayed in a browser:</p><br>
+                    <form>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> I have a bike</label><br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2"> I have a car</label><br>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <label for="vehicle3"> I have a boat</label>
+                    </form><br><hr><br>
+
+                    <p class="title">Input Type <b class="title" style="color: var(--textcolor);">Range</b> </p><br>
+                    <p><code>&lt;input type="range"&gt;</code> defines a control for entering a number whose exact value is not important (like a slider control).</p><br>
+                    <p>This is how the HTML code above will be displayed in a browser:</p><br>
+                    <form>
+                        <label for="vol">Volume (between 0 and 50):</label>
+                        <input type="range" id="vol" name="vol" min="0" max="50">
+                    </form><br><hr><br>
+
+                    <p class="title">Input Type <b class="title" style="color: var(--textcolor);">Date</b> </p><br>
+                    <p><code>&lt;input type="date"&gt;</code> is used for input fields that should contain a date.</p><br>
+                    <p>Depending on browser support, a date picker can show up in the input field.</p><br>
+                    <p>This is how the HTML code above will be displayed in a browser:</p><br>
+                    <form>
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </form><br><hr><br>
+                </div>
+
+
+
+                <div class="content" id="box6"></div>
             </div>
         </div>
     </main>
