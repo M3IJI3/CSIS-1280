@@ -82,3 +82,18 @@ main
     display: none;
 }
 
+.input_field
+{
+    width: 50%;
+    height: auto;
+    border-radius: 20px 0 0 0;
+    background-color: var(--textcolor);
+}
+
+.input_field_title
+{
+    margin-top: 2%;
+    margin-left: 3%;
+    font-size: 30px;
+}
+
