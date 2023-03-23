@@ -62,3 +62,24 @@ window.onload = function()
         }
     }
 }
+
+// 定义答案
+const answers = {
+    q1: 'b',
+    q2: '<sub></sub>',
+    q3: 'd'
+  };
+
+  // 监听表单的提交事件
+  const form = document.getElementById('quiz_form');
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // 阻止表单默认提交行为
+    const formData = new FormData(form);
+    let score = 0;
+    for (let answer in answers) {
+      if (formData.get(answer) === answers[answer]) {
+        score++;
+      }
+    }
+    alert(`你的得分是${score}分！`); // 显示得分
+  });

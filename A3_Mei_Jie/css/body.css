@@ -144,3 +144,10 @@ tr:nth-child(even) {
 {
     color: var(--textcolor);
 }
+
+.q2_input
+{
+    width: 40px;
+    font-size: 12px;
+    color: var(--textcolor);
+}
